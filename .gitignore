@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/src/seguradora.api/bin
+/src/seguradora.api/obj
+/src/seguradora.ioc/bin
+/src/seguradora.ioc/obj
+/src/seguradora.domain/bin
+/src/seguradora.domain/obj
+/src/seguradora.repository/bin
+/src/seguradora.repository/obj
+/src/seguradora.web/bin
+/src/seguradora.web/obj
+/test/seguradora.test.domain/bin
+/test/seguradora.test.domain/obj

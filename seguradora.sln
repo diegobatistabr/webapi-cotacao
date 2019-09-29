@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seguradora.domain", "src\seguradora.domain\seguradora.domain.csproj", "{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seguradora.repository", "src\seguradora.repository\seguradora.repository.csproj", "{CD4B2A01-CF31-4739-B882-1319D786D7C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seguradora.api", "src\seguradora.api\seguradora.api.csproj", "{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Services", "1.Services", "{C3DF4AB4-BEB3-4781-AD5E-5E1A899F547B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Tiers", "2.Tiers", "{FCCD03B6-106E-4A50-A27E-40AAF7227B67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "seguradora.ioc", "src\seguradora.ioc\seguradora.ioc.csproj", "{554CD3E8-3191-4F84-B3F7-BD150A2045D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Tests", "3.Tests", "{52DB25A7-916E-4622-936F-FC9EAEE13DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "seguradora.test.domain", "test\seguradora.test.domain\seguradora.test.domain.csproj", "{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD4B2A01-CF31-4739-B882-1319D786D7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4B2A01-CF31-4739-B882-1319D786D7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4B2A01-CF31-4739-B882-1319D786D7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4B2A01-CF31-4739-B882-1319D786D7C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554CD3E8-3191-4F84-B3F7-BD150A2045D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554CD3E8-3191-4F84-B3F7-BD150A2045D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554CD3E8-3191-4F84-B3F7-BD150A2045D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554CD3E8-3191-4F84-B3F7-BD150A2045D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4AA68F60-5909-4BD6-B42D-F6A8BF4F01C0} = {FCCD03B6-106E-4A50-A27E-40AAF7227B67}
+		{CD4B2A01-CF31-4739-B882-1319D786D7C7} = {FCCD03B6-106E-4A50-A27E-40AAF7227B67}
+		{EA00D661-A2A5-4DEE-96FB-3E5886D73FEB} = {C3DF4AB4-BEB3-4781-AD5E-5E1A899F547B}
+		{554CD3E8-3191-4F84-B3F7-BD150A2045D6} = {FCCD03B6-106E-4A50-A27E-40AAF7227B67}
+		{9BF3B2C0-66B7-4AF0-9C7E-3705DC8D9188} = {52DB25A7-916E-4622-936F-FC9EAEE13DDE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {841A78B5-E71C-4BD3-A48F-7DF995263C02}
+	EndGlobalSection
+EndGlobal
